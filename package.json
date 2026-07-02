@@ -8,6 +8,8 @@
   "dependencies": {},
   "devDependencies": {
     "cheerio": "*",
-    "jest": "*"
+    "jest": "*",
+    "react": "*",
+    "a": "*"
   }
 }
