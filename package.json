@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "axios": "*",
-    "vue": "*"
+    "vue": "*",
+    "http2": "*"
   }
 }
