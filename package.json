@@ -1,15 +1,12 @@
 {
   "name": "dm-customer-09",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "private": true,
   "scripts": {
-    "test": "node src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "cheerio": "*",
-    "jest": "*",
-    "react": "*",
-    "a": "*"
+  "dependencies": {
+    "react-query": "latest",
+    "react": "^18.2.0"
   }
 }
