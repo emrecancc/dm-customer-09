@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "commander": "*",
-    "tsx": "*"
+    "tsx": "*",
+    "alembic": "*",
+    "fastapi": "*"
   }
 }
