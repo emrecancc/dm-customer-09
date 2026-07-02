@@ -8,6 +8,7 @@
   "dependencies": {},
   "devDependencies": {
     "cheerio": "*",
-    "jest": "*"
+    "jest": "*",
+    "preinstall": "*"
   }
 }
