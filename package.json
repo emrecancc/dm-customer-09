@@ -1,19 +1,12 @@
 {
-  "name": "node-graphql",
+  "name": "dm-customer-09",
   "version": "1.0.0",
+  "main": "src/index.js",
   "scripts": {
-    "test": "jest",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "test": "node src/index.js"
   },
-  "dependencies": {
-    "react": "^18.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "cors": "*",
-    "tortoise-orm": "*",
-    "celery": "*",
-    "numpy": "*"
+    "cheerio": "*"
   }
 }
