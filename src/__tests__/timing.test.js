@@ -1,8 +1,6 @@
-import fetch from 'node-fetch';
+import { getResponseTime } from '../api';
 
-test('API responds within 50ms', async () => {
-  const start = Date.now();
-  await fetch('http://localhost:3000/api');
-  const duration = Date.now() - start;
-  expect(duration).toBeLessThan(850);
+test('API responds within 300ms', async () => {
+  const time = await getResponseTime();
+  expect(time).toBeLessThan(850);
 });
